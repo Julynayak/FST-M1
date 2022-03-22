@@ -1,0 +1,8 @@
+
+UPDATE salesman SET grade=200 WHERE SALESMAN_CITY='Rome';
+UPDATE salesman SET grade=300 WHERE salesman_name='James Hoog';
+
+INSERT INTO salesman (SALESMAN_ID,SALESMAN_NAME,SALESMAN_CITY,COMISSION,GRADE)
+VALUES (5004, 'McLyon', 'America', 21, 400);
+
+UPDATE salesman SET SALESMAN_NAME='Pierre' WHERE SALESMAN_NAME='McLyon';
